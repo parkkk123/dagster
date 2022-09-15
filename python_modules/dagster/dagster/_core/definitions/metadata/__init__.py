@@ -451,7 +451,7 @@ class MetadataValue(ABC):
                     metadata={
                         "errors": MetadataValue.table(
                             records=[
-                                TableRecord(code="invalid-data-type", row=2, col="name"}]
+                                TableRecord(code="invalid-data-type", row=2, col="name")
                             ],
                             schema=TableSchema(
                                 columns=[
